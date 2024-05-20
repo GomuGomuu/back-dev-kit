@@ -2,3 +2,4 @@
 .venv
 api
 scraper
+.env

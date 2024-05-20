@@ -6,7 +6,7 @@ up:
 	@docker-compose -f $(ALOP_SCRAPER_DIR)/docker-compose.yml up -d
 
 down:
-	@docker-compose -f docker-compose.tunnel.yml down -d
+	@docker-compose -f docker-compose.tunnel.yml down
 	@docker-compose -f $(MERRY_DIR)/docker-compose.yml down
 	@docker-compose -f $(ALOP_SCRAPER_DIR)/docker-compose.yml down
 
